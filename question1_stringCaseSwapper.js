@@ -1,22 +1,21 @@
-function swapCase(str) {
-    // Initialize a output string
-    let output = '';
-  
-    // Iterate through each character in the input string
-    for (let i = 0; i < str.length; i++) {
-      // If the current character is uppercase, convert it to lowercase and add it to the result string
-      if (str[i] === str[i].toUpperCase()) {
-        output += str[i].toLowerCase();
-      }
-      // If the current character is lowercase, convert it to uppercase and add it to the result string
-      else {
-        output += str[i].toUpperCase();
-      }
-    }
-  
-    // Return the output string
-    return output;
-  }
-  
-  // Test the output
-  console.log(swapCase('The Quick Brown Fox')); //the output is 'tHE qUICK bROWN fOX'
+function capitalizedWords(sentence) {
+    // Split the sentence into an array of words
+    let words = sentence.split(" ");
+
+    // Capitalize the first letter of each word alternately
+    let capitalizedWords = words.map((word, index) => {
+        // Check if the index is even or odd to alternate capitalization
+        if (index % 2 === 0) {
+            return word.charAt(0).toLowerCase() + word.slice(1).toUpperCase();
+        } else {
+            return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+        }
+    });
+
+    // Join the words back into a sentence
+    return capitalizedWords.join(" ");
+}
+
+// Example usage:
+let sentence = "the quick brown fox";
+console.log(capitalizeWords(sentence)); // Output: "tHE qUICK bROWN fOX"

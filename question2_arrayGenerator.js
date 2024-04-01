@@ -18,5 +18,6 @@ function gene_Range(start, end) {
   }
   
   // Test the function
+  //shows all the ouputs
   console.log(gene_Range(4, 7)); // [4, 5, 6, 7]
   console.log(gene_Range(-4, 7)); // [-4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7]

@@ -16,6 +16,6 @@ function capitalizedWords(sentence) {
     return capitalizedWords.join(" ");
 }
 
-// Example usage:
+// test of the solution
 let sentence = "the quick brown fox";
 console.log(capitalizeWords(sentence)); // Output: "tHE qUICK bROWN fOX"

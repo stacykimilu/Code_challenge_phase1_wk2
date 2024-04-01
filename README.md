@@ -1,6 +1,7 @@
 # Code_challenge_phase1_wk2
-Code_challenge_phase1_wk2
+
 Date, 2024/03/22
+
 By Stacy Mwende Kimilu
 # JavaScript Practice Questions
 
@@ -32,7 +33,9 @@ Open a terminal and run the following command to execute each solution: ....
 
 ## Folder Structure
 node question1_stringCaseSwapper.js
+
 node question2_arrayGenerator.js
+
 node question3_primeNumberFilter.js
 
 # Live Link
@@ -41,6 +44,7 @@ node question3_primeNumberFilter.js
 
 ## Technologies used
 Javascript
+
 Git
 
 ## Support and contact details

@@ -2,7 +2,7 @@
 Code_challenge_phase1_wk2
 Date, 2024/03/22
 By Stacy Mwende Kimilu
-# JavaScript Practice Problems
+# JavaScript Practice Questions
 
 This repository contains solutions to three JavaScript practice problems. Each problem has its own solution along with explanations.
 
@@ -30,7 +30,7 @@ Fork and Clone the repository to your device.
 Navigate to the repository directory. using the command cd on your terminal.
 Open a terminal and run the following command to execute each solution: ....
 
-
+## Folder Structure
 node question1_stringCaseSwapper.js
 node question2_arrayGenerator.js
 node question3_primeNumberFilter.js
@@ -48,5 +48,6 @@ if you have any enquires or suggestions ,feel free to reach out :
 GitHub:https://github.com/stacykimilu
 ### License
 The content of this site is licensed under the MIT license
+
 Copyright (c) 2024.
 
